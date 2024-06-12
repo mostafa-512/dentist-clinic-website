@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+                    /* Body */
+body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+                /* Header */
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+            /* Logo in Header */
+.logo-a{
+    margin-left: 110px;
+    margin-top: 30px;
+}
+        /* O.R All Of elements in Header */
+.conteaner-of-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 40px;
+}
+            /* First Part Of Page */
+.section-1{
+    height: 506px;
+    width: 100%;
+    background-image: url(img/Screenshot\ 2024-04-24\ 152050.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 119px;
+    padding: 90px;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+}
+.a:hover{
+    color:#888888;
+
+}
+/* .img-w-h{
+    width: 18;
+    height: 18;
+} */
+h6{
+    font-size: 14pt;
+    font-weight: 400;
+}
+h2{
+    font-size: 35pt;
+}
+.about{
+    margin-left: 80px;
+}
+.button{
+    width: 12rem;
+    height: 4rem;
+    color: orange;
+    border: 2px solid orange;
+    background-color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+    font-weight: bold;
+    /* text-decoration: none; */
+    text-align: center;
+    border-radius: 6px;
+    margin: 34px auto 0 0;
+    
+}
+.button:hover{
+    color: white;
+    border: 2px solid orange;
+    background-color: orange ;
+    
+}
+/* .location{
+    width: 18px;
+    height: 18px;
+} */
+.conteaner-img-lines{
+    display: flex;
+    align-items: center;
+}
+.img-spacing{
+    margin-right: 10px;
+}
+.button-div{
+    padding: 80px;
+}
+.free-pik{
+    margin-top: 33px;
+    font-weight: 400;
+    
+}
+.free-pik-a{
+    color:black;
+    text-decoration-color: orange;
+}
+
+/* Section 2 */
+
+.section-2{
+    position: relative;
+    margin: 80px;
+}
+.conteaner-of-cards{
+    display: flex;
+    
+}
+.card-all{
+    width: 290px;
+    height: 290px;
+    background-color: #ff724a;
+    border-radius: 10px;
+    padding: 30px;
+}
+.card-2,.card-3,.card-4{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-end;
+    position: relative;
+    
+}
+.h4-cards{
+    color: white;
+    padding: 20px;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.ico-1,.ico-2,.ico-3,.ico-4{
+    width: 100%;
+    
+}
+
+.img-cards{
+    margin-left: calc(50% - 30px) ;
+    margin-right: calc(50% - 30px) ;
+
+}
+.h4-cards,.p-cards,.a-cards{
+    text-align: center;
+}
+.a-cards{
+    width: fit-content;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    border : 1px solid white;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    font-weight: bold;
+    position: absolute;
+    bottom: 25px;
+    left: calc(50% - 30px);
+    right: calc(50% - 30px);
+}
+.a-cards:hover{
+    border : 1px solid #888888;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+}
+
+
+            /* end of section 2 */
+
+
+            /* section 3 */
+
+.section-3{
+    margin: 125px;
+    text-align: center;
+}
+.h1-section-3{
+    font-size: 46pt;
+    font-weight: 500;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ff724a;
+    margin-left: 1px;
+}
+
+
+
+.conteaner-1-flex,.conteaner-2-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+
+}
+
+.one{
+    display: flex;
+    gap: 30px;
+}
+.h4-sec-3{
+    text-align: center;
+    color: #999;
+    font-size: 20pt;
+    font-weight: 350;
+    letter-spacing: 3px;
+}
+.p1{
+    width: 450px;
+    height: 115px;
+    text-align: center;
+    margin-top: 21px;
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    position: relative;
+
+}
+.p{
+    font-weight: 600;
+    position: absolute;
+    left: 63px;
+    color: #2423236b;
+}
+.flex{
+    display: flex;
+
+}
